@@ -63,4 +63,5 @@ if __name__ == '__main__':
             print("\tis pennying!")
         plot(solver, df, mode, kde, axs[(i // 3), (i % 3) ])
 
+    fig.tight_layout()
     plt.show()
